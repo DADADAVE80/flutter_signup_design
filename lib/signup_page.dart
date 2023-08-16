@@ -178,18 +178,15 @@ class SignUpPage extends StatelessWidget {
                       fontWeight: FontWeight.w400,
                       height: 1.5,
                     ),
-
                     disableLengthCheck: true,
                     flagsButtonPadding:
-                        EdgeInsets.only(left: 9, top: 16, bottom: 16),
+                        EdgeInsets.only(left: 9, top: 19, bottom: 19),
                     dropdownIconPosition: IconPosition.trailing,
                     dropdownDecoration: BoxDecoration(
-                        color: Color(0xFFF2F2F2),
-                        borderRadius: BorderRadius.only(
+                      color: Color(0xFFF2F2F2),
+                      borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(10),
-                          bottomLeft: Radius.circular(10)
-                        ),
-
+                          bottomLeft: Radius.circular(10)),
                     ),
                     decoration: InputDecoration(
                       hintText: 'Example: 8180000000',
